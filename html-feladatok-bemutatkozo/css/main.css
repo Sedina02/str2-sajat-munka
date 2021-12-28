@@ -1,0 +1,21 @@
+#img {
+    box-shadow:5px 5px;
+    margin:20px;
+  }
+
+#boxes {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid rgb(168, 201, 211);
+  margin: 0;
+  display: inline-block;
+  width: 30%;
+}
+
+.content {
+  font-size: 20px;
+}
+
+#image{
+  margin-right: 10px;
+}
