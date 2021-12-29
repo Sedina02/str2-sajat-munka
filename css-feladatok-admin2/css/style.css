@@ -1,0 +1,173 @@
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.header--dark {
+    background-color: rgb(51,57,64);
+    color: rgb(236,236,236);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-top: -30px;
+    margin-left: -8px;
+    margin-right: -5px;
+}
+
+.header__title {
+    display: inline;
+    font-size:  1.25em;
+}
+
+.header__search {
+    display: inline;
+    float: right;
+}
+
+.search__input {
+    border-radius: 4px 0px 4px 0px;
+    border: 3px solid rgb(21, 132, 160);
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: 0.375em;
+    padding-bottom: 0.375em;
+    font-size: 1.2em;
+    transition: background-color 15s ease;
+    background-color: rgb(95, 175, 196);
+}
+
+.search__input:focus {
+    border: rgb(128,189,255);
+}
+
+.search__btn{
+    background-color: rgb(0,123,255);
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: 0.85em;
+    padding-bottom: 0.6em;
+    cursor: pointer;
+    border: 3px solid rgb(69, 167, 192);
+}
+
+.main__nav {
+    background-color: rgb(33,37,41);
+    color: rgb(236,236,236);
+    float: left;
+    margin-top: -20px;
+    margin-left: -8px;
+    padding :10px
+}
+
+.main__breadcrumb {
+    background-color: rgb(233,236,239);
+    border-radius: .25em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    margin-bottom: 20px;
+    margin-left: 8px;
+}
+
+.main__cards > div {
+    display: inline-block;
+}
+
+.main__cards {
+    color: rgb(255, 255, 255);
+}
+
+.main__card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: .25em .25em .25em .25em;
+    transition: background-color 3s ease;
+}
+
+.card_top {
+    border-radius: .25em .25em 0em 0em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    font-size: 18px;
+}
+
+.card_bottom {
+    border-radius: 0em 0em .25em .25em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+
+.main__card--blue {
+    background-color: rgb(0,123,255);
+}
+
+.main__card--yellow {
+    background-color: rgb(255,193,7);
+}
+
+.main__card--green {
+    background-color: rgb(40,167,69);
+}
+
+.main__card--red {
+    background-color: rgb(220,53,69);
+}
+
+.main__card--blue .card__bottom {
+    border-top: 1px solid rgb(0,123,255);
+}
+
+.main__card--yellow .card__bottom {
+    border-top: 1px solid rgb(180, 135, 0);
+}
+
+.main__card--green .card__bottom {
+    border-top: 1px solid rgb(22, 133, 48);
+}
+
+.main__card--red .card__bottom {
+    border-top: 1px solid rgb(158, 19, 33);
+}
+
+.content {
+    margin-left: 190px;
+    flex: auto;
+    margin-top: -30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    margin-right: 0.5em;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.icon {
+    color: rgb(88, 88, 88);
+}
+
+.li_header {
+    color: rgb(88, 88, 88);
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+a {
+    color: rgb(121, 121, 121);
+    line-height: 6rem;
+}
+
+@media (min-width: 700) {
+    .main__cards {
+        display: block;
+    }
+}
