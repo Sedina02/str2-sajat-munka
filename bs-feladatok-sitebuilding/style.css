@@ -23,10 +23,44 @@
 }
 
 .header-p {
-    font-size: 35px;
+    font-size: 3rem;
 }
 
 #phone {
-    top: -3.6rem;
-    left: 0rem;
+    top: -4.4rem;
+    left: -0.3rem;
+}
+
+/*First section*/
+
+.first-sec-background {
+    background-color: rgb(255, 204, 81);
+}
+
+.first-sec-h1 {
+    font-size: 3.5rem;
+}
+
+.first-sec-p {
+    font-size: 0.95rem;
+}
+
+/*Second section*/
+
+.icons {
+    font-size: 5rem;
+    color: rgb(169, 51, 109);
+}
+
+.hr {
+    color: linear-gradient(85deg, #d72631, #7c4394);
+}
+
+#phone2 {
+    top: -2.7rem;
+    left: 10.8rem;
+}
+
+#demo-page2 {
+    left: 11.88rem;
 }
