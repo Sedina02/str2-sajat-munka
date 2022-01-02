@@ -33,9 +33,6 @@
 
 /*First section*/
 
-.first-sec-background {
-    background-color: rgb(255, 204, 81);
-}
 
 .first-sec-h1 {
     font-size: 3.5rem;
@@ -63,4 +60,66 @@
 
 #demo-page2 {
     left: 11.88rem;
+}
+
+/*Third section*/
+
+.second-sec-background {
+    background-image: url('./img/bg-cta.jpg');
+    background-size: cover;
+    filter: brightness(50%);
+}
+
+/*Fourth section*/
+
+.red-heart {
+    color: rgb(221, 76, 57);
+}
+
+.we-heart-text {
+    font-size: 3.5rem;
+}
+
+.socials-icons {
+  top: 1.3rem;
+  font-size: 2rem;
+  color: white;
+  position: absolute;
+}
+
+.icon-container {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.twitter-container {
+  background-color: rgb(29, 161, 243);
+}
+
+.facebook-container {
+  background-color: rgb(59, 89, 157);
+}
+
+.google-container {
+  background-color: rgb(221, 76, 57);
+}
+
+.fa-twitter {
+  right: 1.2rem;
+}
+
+.fa-facebook {
+  right: 1.7rem;
+}
+
+.fa-google-plus {
+  right: 1rem;
+}
+
+/*Other*/
+
+.yellow-background {
+    background-color: rgb(255, 204, 81);
 }
